@@ -4,6 +4,7 @@
  * main - prints all combination of single numbers
  * Return: Always 0
  */
+
 int main(void)
 {
 	int n;
