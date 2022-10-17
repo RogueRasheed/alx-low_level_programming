@@ -1,1 +1,1 @@
-if statement else statement and while statement
+if statement else statement and while statements
