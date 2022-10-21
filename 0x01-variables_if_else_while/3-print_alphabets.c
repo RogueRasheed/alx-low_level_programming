@@ -3,7 +3,8 @@
 #include <time.h>
 
 /**
- * main - change uppercase to lower case
+ * main - Entry point
+ *
  * Return: Always 0
  */
 
@@ -13,7 +14,7 @@ int main(void)
 
 	for (rr = 'a'; rr <= 'z'; rr++)
 		putchar(rr);
-	for (rr = 'A'; rr <= 'Z'; ch++)
+	for (rr = 'A'; rr <= 'Z'; rr++)
 		putchar(rr);
 
 	putchar('\n');
