@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - prints single numbers in base 10
@@ -8,8 +10,8 @@ int main(void)
 {
 	int no;
 
-	for (no = 0; no < 10; no++)
-		putchar((no % 10) + '0')
+	for (no = '0'; no <= '10'; no++)
+		putchar(no);
 
 	putchar('\n');
 

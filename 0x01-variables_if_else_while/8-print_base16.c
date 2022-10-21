@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - print the numbers in base 16
@@ -9,8 +11,8 @@ int main(void)
 	int no;
 	char why;
 
-	for (no = 0; no < 10; no++)
-		putchar((no % 10) + '0');
+	for (no = '0'; no <= '10'; no++)
+		putchar(no);
 
 	for (why = 'a'; la <= 'f'; why++)
 		putchar(why);
