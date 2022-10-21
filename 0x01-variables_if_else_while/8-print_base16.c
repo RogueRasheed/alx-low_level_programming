@@ -3,15 +3,17 @@
 #include <time.h>
 
 /**
- * main - print the numbers in base 16
+ * main - Entry point
+ *
  * Return: Always 0
  */
+
 int main(void)
 {
 	int no;
 	char why;
 
-	for (no = 0; no <= 10; no++)
+	for (no = 0; no <= 9; no++)
 		putchar(no);
 
 	for (why = 'a'; la <= 'f'; why++)
