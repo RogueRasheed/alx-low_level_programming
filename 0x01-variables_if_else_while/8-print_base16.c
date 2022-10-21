@@ -11,7 +11,7 @@ int main(void)
 	int no;
 	char why;
 
-	for (no = '0'; no <= '10'; no++)
+	for (no = 0; no <= 10; no++)
 		putchar(no);
 
 	for (why = 'a'; la <= 'f'; why++)
