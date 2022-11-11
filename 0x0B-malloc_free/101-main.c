@@ -19,7 +19,7 @@ void print_tab(char **tab)
 }
 
 /**
- * main - check the code for Holberton School students.
+ * main - check the code for ALX School students.
  *
  * Return: 1 if an error occurred, 0 otherwise
  */
@@ -27,7 +27,7 @@ int main(void)
 {
   char **tab;
 
-  tab = strtow("Talk is cheap. Show me the code.");
+  tab = strtow("   Talk is cheap    #Show me the code   ");
   if (tab == NULL)
     {
       printf("Failed\n");
